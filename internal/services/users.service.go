@@ -7,6 +7,7 @@ import (
 	"fmt"
 )
 
+// interface
 type ServiceUsers interface {
 	GetAll() (*entity.ResponseUsers, error)
 }

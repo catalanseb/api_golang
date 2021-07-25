@@ -18,7 +18,7 @@ import (
 )
 
 func main() {
-
+	// config of flag
 	configFlag := flag.NewFlagConfig()
 
 	// connect to database
