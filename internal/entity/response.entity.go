@@ -3,8 +3,9 @@ package entity
 import "time"
 
 type ResponseUsers struct {
-	Status string   `json:"status"`
-	Data   []*Users `json:"data"`
+	StatusCode int      `json:"statusCode"`
+	Status     string   `json:"status"`
+	Data       []*Users `json:"data"`
 }
 
 type Users struct {

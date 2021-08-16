@@ -30,8 +30,9 @@ func (m *modelToEntity) MapUsersResponse(in []models.Users) *entity.ResponseUser
 	}
 
 	res := &entity.ResponseUsers{
-		Status: "Success",
-		Data:   users,
+		StatusCode: 200,
+		Status:     "Success",
+		Data:       users,
 	}
 
 	return res
